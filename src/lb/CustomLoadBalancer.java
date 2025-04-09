@@ -24,7 +24,6 @@ public class CustomLoadBalancer {
     public static void main(String[] args) {
 
         List<String> serverList = Arrays.asList("server-1", "server-2", "server-3");
-        // List.Of
 
         CustomLoadBalancer lb = new CustomLoadBalancer(serverList);
 
